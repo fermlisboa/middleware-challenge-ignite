@@ -1,11 +1,11 @@
 <h2 align="center">🚀 Second Challenge by Rocketseat</h2>
 <h5 align="center">Ignite - <a href="https://rocketseat.com.br/" >Rocketseat</a> - Node js</h5>
 
-## 💻 Descrição
+## 💻 Description
 
 Development of middlewares on Express to manage ToDo list. Users can choose between a FREE plan, with a 10 ToDo itens limit, or a ilimited PRO plan.
 
-## 🛠️ Funcionalidades
+## 🛠️ Features
 
 - create new user with `name` and `username`
 - create new ToDo
@@ -14,7 +14,7 @@ Development of middlewares on Express to manage ToDo list. Users can choose betw
 - Mark `todo` as done;
 - Delete `todo`;
 
-## 🔗 Rotas
+## 🔗 Routes
 
 - POST `/users` → create new user.
 - GET `/users/:id` → get user by id.
@@ -29,10 +29,10 @@ Development of middlewares on Express to manage ToDo list. Users can choose betw
 
 To clone the repository execute `git clone https://github.com/fermlisboa/middleware-challenge-ignite.git`.
 
-### 🕮 Get Start
+### 🕮 Installation
 
 Execute `yarn` to install all dependencies.
 
-##### Uso
+##### Get Start
 
 With all dependencies installed, execute `yarn dev` to execute your application. Run`yarn test` to execute tests.
