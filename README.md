@@ -1,35 +1,38 @@
-<h2 align="center">Desafio 02 🚀</h2>
-<h5 align="center">Ignite - <a href="https://rocketseat.com.br/" >Rocketseat</a> - Trilha Node js</h5>
+<h2 align="center">🚀 Second Challenge by Rocketseat</h2>
+<h5 align="center">Ignite - <a href="https://rocketseat.com.br/" >Rocketseat</a> - Node js</h5>
 
 ## 💻 Descrição
 
-Desenvolver middlewares para validação das rotas, com a aplicação de todo já criada. Dessa vez o usuário terá um plano, onde o ele só pode criar até dez todos e um plano Pro que irá permitir criar todos ilimitados.
+Development of middlewares on Express to manage ToDo list. Users can choose between a FREE plan, with a 10 ToDo itens limit, or a ilimited PRO plan.
 
 ## 🛠️ Funcionalidades
 
-- Criar um usuário com `name` e `username`
-- Criar um novo todo
-- Listar todos os _todos_;
-- Alterar o `title` e `deadline` de um _todo_ existente;
-- Marcar um _todo_ como feito;
-- Excluir um _todo_;
+- create new user with `name` and `username`
+- create new ToDo
+- Get all  `todos`;
+- Update `title` and `deadline`of an existent `todo`;
+- Mark `todo` as done;
+- Delete `todo`;
 
 ## 🔗 Rotas
 
-- POST `/users` → criar um usuário.
-- GET `/users/:id` → pesquisa um usuário pelo id
-- PATCH `/users/:id/pro` → atualiza o plano do usuário para PRO caso não seja
-- GET `/todos` → lista com todas as tarefas do usuário.
-- POST `/todos` → criar um todo.
-- PUT `/todos/:id` → atualiza um todo.
-- PATCH `/todos/:id/done` → atualiza a propriedade `done` do todo para `true`.
-- DELETE `/todos/:id` → deleta um todo pela `id`
+- POST `/users` → create new user.
+- GET `/users/:id` → get user by id.
+- PATCH `/users/:id/pro` → update user's plan to PRO.
+- GET `/todos` → get all user's ToDos.
+- POST `/todos` → create new ToDo.
+- PUT `/todos/:id` → update ToDo.
+- PATCH `/todos/:id/done` → update ToDo as `done`.
+- DELETE `/todos/:id` → delete ToDo by `id`
 
 ### 📝 Clone
 
-Para clonar o repositório execute `https://github.com/fermlisboa/middleware-challenge-ignite.git` no seu terminal.
-Entre na pasta do projeto e execute `yarn` no seu terminal para instalar as dependências.
+To clone the repository execute `git clone https://github.com/fermlisboa/middleware-challenge-ignite.git`.
+
+### 🕮 Get Start
+
+Execute `yarn` to install all dependencies.
 
 ##### Uso
 
-Com as dependências instaladas execute `yarn dev` para subir o servidor. Para rodar os testes execute `yarn test`.
+With all dependencies installed, execute `yarn dev` to execute your application. Run`yarn test` to execute tests.
